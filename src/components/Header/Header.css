@@ -1,0 +1,45 @@
+.home{
+    border: solid 1px white;
+    margin: 0 1rem 0 1rem !important;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem !important;
+
+    transition: all 500ms ease !important;
+    border-radius: 3px;
+    color: white !important;
+}
+
+.home:hover{
+    padding: 0.1rem 0.6rem 0.1rem 0.6rem !important;
+}
+
+.home-user{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.loginChange{
+    font-size: 1rem;
+}
+
+.click{
+    color: #25868b;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 5px;
+}
